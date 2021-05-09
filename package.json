@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "deploy": "git push heroku main",
-    "prod:log": "heroku log -t"
+    "prod:log": "heroku logs -t"
   },
   "author": "@tobybrave",
   "license": "ISC",
