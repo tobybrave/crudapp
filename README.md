@@ -2,7 +2,7 @@
 ## Description
 a node/express application that creates, retrieves, update and delete data from a database
 
-hosted at `https://zuricrudapp.herokuapp.com/`
+hosted at https://zuricrudapp.herokuapp.com/
 
 ## Endpoints
 `GET /` => homepage  
