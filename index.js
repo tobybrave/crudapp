@@ -126,7 +126,7 @@ app.put("/data/:id", async (request, response) => {
       updateDatum.country = country
     }
 
-    const updatedDatum = await Data.findByIdAndUpdate(id, updateDatum, { new: true })
+    const updatedDatum = await Data.findByIdAndUpdate(id, updateDatum, { new: true, runValidators: true, context: "query" })
 
     response.json({
       message: "success",
